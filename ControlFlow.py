@@ -5,7 +5,7 @@ Program: Guess My Number
 """
 
 
-"""
+
 myNumber = 7
 
 print("\nGuess a number between 1 & 10\n")
@@ -19,7 +19,7 @@ while guess != myNumber:
     guess = int(input("Enter a Guess: "))
 
 print("\nCongradulations! you guessed my number!")
-"""
+
 
 """
 Programmer: Justus Boesch
