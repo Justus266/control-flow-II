@@ -33,3 +33,5 @@ print("")
 for i in range(how_many_tests):
     enter_a_score = int(input("Enter a score: "))
     total = total + enter_a_score
+   
+average = total / how_many_tests
