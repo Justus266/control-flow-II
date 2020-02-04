@@ -23,11 +23,17 @@ def printSomething():
 def printNumber(age): #function name = printNumber with a PARAMETER of "age"
     print(age)
 
+# Defualt Parameters Values
+def printTwoNumbers(x, y = 71):
+    print("First Parameter(Number): " + str(x))
+    print("Second Parameter(Number): " + str(y))
 
 #Call Functions Here.....
 
 # greeting()
 # printSomething()
 # print(x)
-printNumber(28)
-printNumber(38)
+# printNumber(28)
+# printNumber(38)
+printTwoNumbers(23,78)
+printTwoNumbers(45)
